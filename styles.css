@@ -1,0 +1,405 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+    color: #45c234;
+}
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-div {
+  margin: auto;
+}
+
+.main-nav {
+  background-color: rgba(3, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95px;
+  padding: 20px 0;
+  z-index: 3;
+  width: 100%;
+}
+
+.main-nav ul {
+  display: flex;
+}
+
+.img {
+    margin-left: 114px;
+    width: 60%;
+    margin-top: -12px;
+}
+
+.main-nav ul.nav-options {
+  flex: 1;
+  font-family: 'Albert Sans', sans-serif;
+  margin-left: -175px;
+  width: 100px;
+  font-size: 15.8px;
+  
+  /* letter-spacing: 0px; */
+  margin-top: 11px;
+  font-weight: bold;
+  padding: 28px 17px;
+}
+
+.white-text {
+  color: #ffff;
+  margin-left: 30px;
+}
+
+.white-line {
+    color: #fff;
+    margin-left: 30px;
+    font-weight: 1;
+}
+
+.grey-text {
+  color: grey;
+  margin-left: 30px;
+}
+
+.iphone-frame {
+    width: 19%;
+
+   
+    margin-top: 6rem;
+    margin-left: 19rem;
+}
+
+.spotify-logo {
+  margin-left: 60px;
+  width: 151px;
+  margin-top: 15px;
+}
+
+/* SECTION 1 */
+
+.cards {
+    height: 600px;
+    
+}
+
+#card-1 {
+    display: flex;
+    height: 706px;
+    background:linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center -138px;
+    background-repeat: no-repeat;
+     
+}
+
+.card-text {
+    float: left;
+    margin-left: 75px;
+    line-height: 0.5;
+    margin-top: 95px;
+    font-size: 36px;
+    margin-top: 140px;
+    font-family: Helvetica,Arial,sans-serif;
+    letter-spacing: -6.5px;
+    color: #fff;
+}
+
+.btn {
+    width: 206px;
+    height: 45px;
+    margin-top: 65px;
+    margin-left: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 21px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 24px;
+    padding-left: 29px;
+    letter-spacing: -1px;
+}
+
+.spotify-img {
+    margin-top: 80px;
+
+}
+
+.spotify-img {
+   width: 141%;
+   position: relative;
+   margin-top: -405px;
+   height: 418px;
+   margin-left: 1px;
+
+}
+
+.iphone-img {
+   
+    width: 199px;
+       margin-left: 3px;
+    margin-top: -134px;
+
+}
+
+/* SECTION 2 */
+
+#card-2 {
+    width: 100%;
+    height: 510px;
+}
+
+.why-spotify {
+    margin-top: -134px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.feature {
+    margin-left: 323px;
+    width: 77%;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.features {
+    background-color: #fff;
+    height: 300px;
+    width: 224px;
+    margin: auto;
+    justify-content: center;
+    margin-left: -55px;
+    float: left;
+    margin-right: 105px;
+}
+
+.feature-icon {
+    background:linear-gradient(-4deg, rgb(108, 14, 224) -25%, rgb(240, 55, 166));
+    width: 162px;
+    height: 161px;
+    margin-left: 30px;
+    margin-top: 18px;
+    border-radius: 181px;
+    
+}
+
+.feature-text {
+    text-align: center;
+}
+
+.feature-heading {
+    margin-top: 45px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 900;
+}
+
+.feature-description {
+    margin-top: -5px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+
+.icon-div {
+    height: 30px;
+    width: 30px;
+}
+
+.icon-1 {
+    margin-top: 25px;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.icon-2 {
+    margin-top: 48px;
+    width: 40%;
+    margin-left: 51px;
+}
+
+.icon-3 {
+    width: 45%;
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.icon-4 {
+    width: 50%;
+    margin-left: 41px;
+    margin-top: 39px;
+}
+
+#why-spotify {
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 900;
+    width: 10;
+    font-size: 48px;
+}
+
+/* SECTION 3 */
+
+.card-3 {
+    width: 100%;
+    height: 420px;
+    background: linear-gradient(-1deg, rgb(108, 14, 224) 56%, rgb(240, 55, 166));
+}
+
+.card-3-text {
+    padding: 140.3px;
+}
+
+.card-3-heading {
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: -32px;
+    font-family: Helvetica,Arial,sans-serif;
+    margin-bottom: 25px;
+}
+
+/* SECTION 4 */
+
+.card-4 {
+    width: 100%;
+    height: 455px;
+    background: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-4-heading {
+    font-size: 85px;
+    padding-top: 10%;
+    color: #fff;
+    margin-top: 0;
+
+}
+
+.btn-2 {
+    width: 206px;
+    height: 45px;
+    margin-top: -20px;
+    margin-left: 644px;
+    font-size: 17px;
+    padding: 21px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: 24px;
+    padding-top: 14px;
+    letter-spacing: -1px;
+}
+
+/* SECTION 5 */
+
+.content {
+    display: flex;
+    background: grey;
+}
+
+.company {
+    margin-left: 50px;
+    margin-top: 45px;
+}
+
+.company p {
+    margin-left: 435px;
+}
+
+.community {
+    margin-left: 50px;
+    margin-top: 45px;
+}
+
+.community p {
+    margin-left: 40px;
+}
+
+.useful-links {
+    margin-left: 50px;
+    margin-top: 45px;
+}
+
+.useful-links p {
+    margin-left: 40px;
+}
+
+.img-2 {
+    margin-left: 145px;
+    width: 151px;
+    width: 15%;
+    height: 250px;
+}
+
+.spotify-logo-2 {
+    width: 84px;
+    margin-top: 45px;
+    margin-left: 81px;
+}
+
+.footer-ul {
+    line-height: 40px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-ul-company {
+    margin-left: 395px;
+    line-height: 3;
+}
+
+.ul-head {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.icons {
+    display: flex;
+    margin-left: 185px;
+}
+
+.icons-a {
+    margin-top: 55px;
+    width: 49px;
+    height: 44px;
+    margin-left: 21px;
+}
+
+
+.footer-ul li {
+    display: inline;
+}
+
+.icons img {
+    margin-top: 30px;
+}
+.icons img {
+    margin-top: 55px;
+    width: 55px;
+    height: 51px;
+    margin-left: 20px;
+}
+
+
+
